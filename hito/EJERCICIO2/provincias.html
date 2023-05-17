@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="shortcut icon" href="img/icono.ico">
+    <title>Hito Individual</title>
+</head>
+    
+</div>
+
+<body>
+    <!-- Barra de navegación y cabecera -->
+    <nav class="navbar">
+        <img src="IMAGENES/logo.png" alt="Logo CampusFP" id="imgCampus">
+        <h5 id="curso" class="it-nav">Curso</h5>
+        <h5 id="autor" class="it-nav">Nombre y Apellidos</h5>
+        <div class="it-nav">
+            <div class="navMenu">
+                <a href="#">Home</a>
+                <a href="#">Work</a>
+                <a href="#">About</a>
+                <div class="dot"></div>
+            </div>
+        </div>
+    </nav>
+    <!-- Crear una tabla para mostrar los datos del archivo. -->
+    <div class="container">
+        <div class="section">
+            <h1>Leer archivo JSON</h1>
+            <button type="button" class="btn" id="boton" onclick="traerDatos()">Leer JSON</button>
+            <br><br>
+            <table>
+                <thead>
+                    <tr>
+                        <th>CODIGOINE</th>
+                        <th>ID_REL</th>
+                        <th>COD_GEO</th>
+                        <th>CODPROV</th>
+                        <th>NOMBRE_PROVINCIA</th>
+                        <th>NOMBRE</th>
+                        <th>POBLACION_MUNI</th>
+                        <th>SUPERFICIE</th>
+                        <th>PERIMETRO</th>
+                        <th>CODIGOINE_CAPITAL</th>
+                        <th>NOMBRE_CAPITAL</th>
+                    </tr>
+                </thead>
+
+                <tbody id="resp">
+
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+    <footer>
+
+    </footer>
+    <script src="provincias.js"></script>
+</body>
+
+</html>
+
